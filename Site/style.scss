@@ -33,15 +33,26 @@ $link-color: #ff3300;
 
 // Fonts
  @import url('https://fonts.googleapis.com/css?family=Poppins');
-$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$headings-font-family: Poppins;
+$font-family-base: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
 $display-font-family: $font-family-base;
-$font-weight-normal: 200;
-$headings-font-weight: 200;
+
+$headings-font-weight: $font-weight-bold;
 $lead-font-size:   1.30rem;
 
 $spacer: 1.5rem;
 $line-height-base: 2;
+$headings-font-family: Poppins;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+
+
+
+
+
+
 
 @import 'bootstrap-4.1.3';
 
