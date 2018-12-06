@@ -6401,3 +6401,8 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+/* Imagem da info window */
+.markerImg img {
+  width: 50%;
+}
