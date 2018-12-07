@@ -1,24 +1,31 @@
-function sendEmail() {
 
-    // Obter valores das caixas de texto
-    const name = document.querySelector("#txtName").value
-    const message = document.querySelector("#txtMessage").value
+//função para correr o códido mais rápido
+$(document).ready(function(){
 
-    // Inicializar o componente EmailJS
-    emailjs.init("user_Ipn9wug0hINMBbrHxlob6")
+    //função para enviar o formulário
+    $('#contactform').submit(function(e){
+        //prevenir que a página recarregue antes de enviar o formulário
+        e.preventDefault();
 
-    const template_params = {
-        "reply_to": "reply_to_value",
-        "from_name": name,
-        "to_name": "to_name_value",
-        "message_html": message
-     }
-     
-     const service_id = "default_service"
-     const template_id = "template_sGHXu67o"
-     emailjs.send(service_id,template_id,template_params)
+        //definir variáveis com o valor dos campos
+        var nome = $("#form27").val();
+        var email = $("#form28").val();
+        var mensagem = $("#form30").val();
 
-    console.log("Olá " + name)
+        //template dado pelo emailjs para js    
+        var template_params = {
+            "reply_to": email,
+            "from_name": nome,
+            "to_name": "Maria Abrantes",
+            "message_html": mensagem
+        }
+         
+         var service_id = "default_service";
+         var template_id = "template_7nipI0oX";
+         emailjs.send(service_id,template_id,template_params);
+        
 
-    
-}
+    });
+
+});
+

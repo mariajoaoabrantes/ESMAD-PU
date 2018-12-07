@@ -176,8 +176,8 @@ function myMap() {
   var contentString = '<div id="content"><div id="siteNotice"></div>'+
       '<h3 id="firstHeading" class="firstHeading">Porto</h1>'+
       '<div class="row">'+
-      '<div class="col-md-8 markerImg"><img src="https://media.timeout.com/images/104692355/630/472/image.jpg"></div>'+
-      '<div class="col-md-4"><br>Porto é a segunda cidade e o quarto município mais populoso de Portugal, situada no noroeste do país e capital da Área Metropolitana do Porto, da região Norte e do Distrito do Porto. A cidade é considerada uma cidade global gama.</div>'+
+      '<div class="col-md-4 markerImg"><img src="https://media.timeout.com/images/104692355/630/472/image.jpg"></div>'+
+      '<div class="col-md-8"><br>Porto é a segunda cidade e o quarto município mais populoso de Portugal, situada no noroeste do país e capital da Área Metropolitana do Porto, da região Norte e do Distrito do Porto. A cidade é considerada uma cidade global gama.</div>'+
       '</div>'+
       '</div></div>';
 
